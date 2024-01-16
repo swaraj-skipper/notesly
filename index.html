@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes.ly</title>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <h2>notes.ly</h2>
+            <ul>
+                <li><a href="/"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="block.html"><i class="fas fa-address-card"></i>About Us</a></li>
+                <li><a href="https://github.com/" target="none"><i class="fab fa-github"></i>Blogs</a></li>
+                <li><a href="https://gaana.com/" target="blank"><i class="fas fa-music"></i></i>Music</a></li>
+                <li><a href="https://www.google.com/maps" target="blank"><i class="fas fa-map-pin"></i>Maps</a></li>
+            </ul>
+
+            <div class="social_media">
+                <a href="https://www.facebook.com/login/" target="blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/accounts/login/" target="blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/login" target="blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+
+        </div>
+
+        <div class="main_content">
+            <div class="header"><b> Welcome!! have a nice day</b></div>
+            <div class="info">
+                <div class="container">When your heart speaks, take good notes</div>
+            </div>
+        </div>
+    </div>
+    <div class="NotesAreaBig">
+        <legend>
+            <h1><strong>Notes</strong></h1>
+        </legend>
+        <div class="bgArea">
+            <input class="text-area-big-up" type="text" name="" id="note-title" placeholder="Title">
+            <textarea name="" id="text-area-big" cols="35" rows="7" class="text-area-big" placeholder="Let's get started..."></textarea>
+        </div>
+    </div>
+    <!-- <div class="NotesAreaSmall"> -->
+    <!-- <textarea name="" id="text-area-small" cols="30" rows="10" class="text-area-small"></textarea> -->
+    <!-- </div> -->
+
+    <div align="center">
+        <!-- <i class="far fa-save"></i> -->
+        <input type="submit" value="Add Note" class="btn" id="add-btn">
+        <input type="reset" value="Clear" class="btn" id="clrBtn">
+    </div>
+    <br><br>
+    <hr><br><br>
+
+    <div class="alignNote" id="notes">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
